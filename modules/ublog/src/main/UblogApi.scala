@@ -91,7 +91,7 @@ final class UblogApi(
       id = post.id.value,
       slug = post.slug,
       title = post.title,
-      imageUrl = UblogPost.thumbnail(picfitUrl, imageId, _.Large)
+      imageUrl = UblogPost.thumbnail(picfitUrl, imageId, _.Small)
     )
   }
 
